@@ -1,0 +1,44 @@
+<br>
+<a href="#/users" class="btn btn-primary btn-block" role="button">Go Back</a>
+<br>
+<h3 class="font-weight-light text-center">Edit User</h3>
+<form ng-submit="updateUser()" ng-init="getOneUser()">
+         <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" placeholder="Name" ng-model="user.name">
+          </div>
+          <div class="form-group">
+                <label>User Name</label>
+            <input type="text" class="form-control" placeholder="User name" ng-model="user.username">
+          </div>
+          <div class="form-group">
+                <label>Email</label>
+            <input type="text" class="form-control" placeholder="Email" ng-model="user.email">
+         </div>
+         <div class="form-group">
+                <label>Street</label>
+            <input type="text" class="form-control" placeholder="Adresse Street" ng-model="user.address.street">
+        </div>                
+        <div class="form-group">
+                <label>Suite</label>
+            <input type="text" class="form-control" placeholder="Adresse Suite" ng-model="user.address.suite">
+          </div>
+          <div class="form-group">
+                <label>City</label>
+                <input type="text" class="form-control" placeholder="Adresse City" ng-model="user.address.city">
+        </div>
+        <div class="form-group">
+                <label>Zip code</label>
+            <input type="text" class="form-control" placeholder="Adresse Zip Code" ng-model="user.address.zipcode">
+         </div>
+         <div class="form-group">
+                <label>Phone</label>
+            <input type="text" class="form-control" placeholder="Phone" ng-model="user.phone">
+         </div>
+         <div class="form-group">
+                <label>Web Site</label>
+            <input type="text" class="form-control" placeholder="website.org" ng-model="user.website">
+         </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+</form>

@@ -1,0 +1,78 @@
+<html>
+
+<head>
+  <title>Angular JS CRUD</title>
+  <!-- <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css"> -->
+  <!-- <link rel="stylesheet" href="/bower_components/components-font-awesome/css/fontawesome.css"> -->
+  <!-- <link rel="stylesheet" href="/bower_components/SpinKit/css/spinkit.css"> -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  <link rel='stylesheet' href='/node_modules/nprogress/nprogress.css' />
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body ng-app="myApp">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">AngularJS REST API</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#/">Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#/users">Users
+            <span class="sr-only"></span>
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#/users/add">Add User</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- <div class="row">
+  <div class="col-md-12"> -->
+  <div class="container-fluid" ng-view>
+  </div>
+
+  <br>
+  <footer>
+    <div class="footer-bottom">
+      <div class="d-flex justify-content-center">
+        <p>&copy; Copyright 2018 - DevoxxMA. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- /.container -->
+  <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/datatables.net/js/jquery.dataTables.js"></script>
+  <script src="node_modules/angular/angular.min.js"></script>
+  <script src="node_modules/angular-datatables/dist/angular-datatables.min.js"></script> -->
+
+  <!-- <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="/bower_components/tether/dist/js/tether.js"></script> -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="/bower_components/angular/angular.js"></script>
+  <script src="/bower_components/angular-route/angular-route.js"></script>
+  <script src="/bower_components/angularUtils-pagination/dirPagination.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="/node_modules/nprogress/nprogress.js"></script>
+  <script src="/app.js"></script>
+  <script src="/controllers/books.js"></script>
+  <script src="/controllers/users.js"></script>
+</body>
+
+</html>
